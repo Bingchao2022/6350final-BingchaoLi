@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "ben-dutton-16ziVZtz8vA-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "ben-dutton-16ziVZtz8vA-unsplash 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "ben-dutton-16ziVZtz8vA-unsplash 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
