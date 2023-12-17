@@ -8,18 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
     @IBOutlet weak var tableView: UITableView!
-
-
+    
     let seattleImages = ["1", "2", "3", "4"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
-        tableView.dataSource = self
-        tableView.delegate = self
 
     }
 
@@ -38,11 +32,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-
+        let cell = Bundle.main.loadNibNamed("SeattleTableViewCell", owner: self)?.first as! SeattleTableViewCell
 
         let imageName = seattleImages[indexPath.row]
         cell.imageView?.image = UIImage(named: imageName)
+        cell.lblSeattle.text = seattleImages[indexPath.row]
 
 
         return cell

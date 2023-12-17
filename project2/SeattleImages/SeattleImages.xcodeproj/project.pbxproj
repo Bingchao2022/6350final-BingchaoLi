@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1565AE2B2EA55F0038A63A /* SeattleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1565AC2B2EA55F0038A63A /* SeattleTableViewCell.swift */; };
+		AF1565AF2B2EA55F0038A63A /* SeattleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF1565AD2B2EA55F0038A63A /* SeattleTableViewCell.xib */; };
 		AF7D19262B2A6D4500468FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7D19252B2A6D4500468FC0 /* AppDelegate.swift */; };
 		AF7D19282B2A6D4500468FC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7D19272B2A6D4500468FC0 /* SceneDelegate.swift */; };
 		AF7D192A2B2A6D4500468FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7D19292B2A6D4500468FC0 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF1565AC2B2EA55F0038A63A /* SeattleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeattleTableViewCell.swift; sourceTree = "<group>"; };
+		AF1565AD2B2EA55F0038A63A /* SeattleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeattleTableViewCell.xib; sourceTree = "<group>"; };
 		AF7D19222B2A6D4500468FC0 /* SeattleImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeattleImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7D19252B2A6D4500468FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF7D19272B2A6D4500468FC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				AF7D192E2B2A6D4800468FC0 /* Assets.xcassets */,
 				AF7D19302B2A6D4800468FC0 /* LaunchScreen.storyboard */,
 				AF7D19332B2A6D4800468FC0 /* Info.plist */,
+				AF1565AC2B2EA55F0038A63A /* SeattleTableViewCell.swift */,
+				AF1565AD2B2EA55F0038A63A /* SeattleTableViewCell.xib */,
 			);
 			path = SeattleImages;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				AF7D19322B2A6D4800468FC0 /* LaunchScreen.storyboard in Resources */,
 				AF7D192F2B2A6D4800468FC0 /* Assets.xcassets in Resources */,
+				AF1565AF2B2EA55F0038A63A /* SeattleTableViewCell.xib in Resources */,
 				AF7D192D2B2A6D4500468FC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				AF7D192A2B2A6D4500468FC0 /* ViewController.swift in Sources */,
 				AF7D19262B2A6D4500468FC0 /* AppDelegate.swift in Sources */,
+				AF1565AE2B2EA55F0038A63A /* SeattleTableViewCell.swift in Sources */,
 				AF7D19282B2A6D4500468FC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
